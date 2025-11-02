@@ -1,0 +1,28 @@
+EXTRATO BANCÁRIO - JANEIRO 2024
+BANCO: 001 - Banco do Brasil
+AGÊNCIA: 1234-5
+CONTA: 12345-6
+PERÍODO: 10/01/2024 a 30/01/2024
+
+===============================================================================
+DATA       | TIPO      | VALOR        | DOCUMENTO        | DESCRIÇÃO
+===============================================================================
+11/01/2024 | DÉBITO    | -2.500,00    | 12345678000190  | TED Fornecedor Tech LTDA
+13/01/2024 | CRÉDITO   |  3.805,50    | 11222333000145  | PIX RECEBIDO Cliente Premium SA
+16/01/2024 | DÉBITO    | -1.200,50    | 22333444000155  | Pagto Boleto Distribuidora ABC
+19/01/2024 | CRÉDITO   |  5.200,00    | 33444555000166  | TRANSFERENCIA Construtora XYZ
+21/01/2024 | DÉBITO    |   -845,00    | 44555666000177  | Pix Papelaria Central ME
+23/01/2024 | CRÉDITO   |  1.515,00    | 55666777000188  | DEP CHEQUE Supermercado Bom Preco
+15/01/2024 | DÉBITO    |   -320,00    | -               | Pagto Energia Eletrica Cemig
+17/01/2024 | DÉBITO    |   -180,50    | -               | Tarifa Manutencao Conta
+24/01/2024 | CRÉDITO   |    950,00    | -               | ESTORNO Devolucao mercadoria
+30/01/2024 | DÉBITO    | -1.200,00    | -               | Pagto Aluguel Janeiro
+===============================================================================
+
+RESUMO DO PERÍODO:
+Total de Créditos: R$ 11.470,50
+Total de Débitos:  R$ 10.246,00
+Saldo do Período:  R$  1.224,50
+Saldo Final:       R$ 51.309,50
+
+*** FIM DO EXTRATO ***

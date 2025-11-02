@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
   <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
-    <infNfe Id="NFe35240123456789000198550010000000011234567890" versao="4.00">
+    <infNfe Id="NFe35240123456789000198550010000000041234567893" versao="4.00">
       <ide>
         <cUF>35</cUF>
         <cNF>23456789</cNF>
-        <natOp>COMPRA PARA REVENDA</natOp>
+        <natOp>VENDA DE MERCADORIA</natOp>
         <mod>55</mod>
         <serie>1</serie>
-        <nNF>001</nNF>
-        <dhEmi>2024-01-10T10:00:00-03:00</dhEmi>
-        <tpNF>0</tpNF>
+        <nNF>004</nNF>
+        <dhEmi>2024-01-18T10:00:00-03:00</dhEmi>
+        <tpNF>1</tpNF>
         <idDest>1</idDest>
         <cMunFG>3550308</cMunFG>
         <tpImp>1</tpImp>
@@ -24,8 +24,8 @@
         <verProc>1.0</verProc>
       </ide>
       <emit>
-        <CNPJ>12345678000190</CNPJ>
-        <xNome>Fornecedor Tech LTDA</xNome>
+        <CNPJ>98765432000110</CNPJ>
+        <xNome>Minha Empresa Comercio LTDA</xNome>
         <enderEmit>
           <xLgr>Rua Principal</xLgr>
           <nro>100</nro>
@@ -41,8 +41,8 @@
         <CRT>3</CRT>
       </emit>
       <dest>
-        <CNPJ>98765432000110</CNPJ>
-        <xNome>Minha Empresa Comercio LTDA</xNome>
+        <CNPJ>33444555000166</CNPJ>
+        <xNome>Construtora XYZ LTDA</xNome>
         <enderDest>
           <xLgr>Avenida Principal</xLgr>
           <nro>500</nro>
@@ -59,19 +59,19 @@
       </dest>
       <det nItem="1">
         <prod>
-          <cProd>PROD001</cProd>
+          <cProd>PROD004</cProd>
           <cEAN>7891234567890</cEAN>
-          <xProd>Compra equipamentos informática</xProd>
+          <xProd>Venda materiais construção</xProd>
           <NCM>84713012</NCM>
           <CFOP>5102</CFOP>
           <uCom>UN</uCom>
           <qCom>1.0000</qCom>
-          <vUnCom>2500.00</vUnCom>
-          <vProd>2500.00</vProd>
+          <vUnCom>5200.00</vUnCom>
+          <vProd>5200.00</vProd>
           <cEANTrib>7891234567890</cEANTrib>
           <uTrib>UN</uTrib>
           <qTrib>1.0000</qTrib>
-          <vUnTrib>2500.00</vUnTrib>
+          <vUnTrib>5200.00</vUnTrib>
           <indTot>1</indTot>
         </prod>
         <imposto>
@@ -80,24 +80,24 @@
               <orig>0</orig>
               <CST>00</CST>
               <modBC>0</modBC>
-              <vBC>2500.00</vBC>
+              <vBC>5200.00</vBC>
               <pICMS>18.00</pICMS>
-              <vICMS>450.00</vICMS>
+              <vICMS>936.00</vICMS>
             </ICMS00>
           </ICMS>
         </imposto>
       </det>
       <total>
         <ICMSTot>
-          <vBC>2500.00</vBC>
-          <vICMS>450.00</vICMS>
+          <vBC>5200.00</vBC>
+          <vICMS>936.00</vICMS>
           <vICMSDeson>0.00</vICMSDeson>
           <vFCP>0.00</vFCP>
           <vBCST>0.00</vBCST>
           <vST>0.00</vST>
           <vFCPST>0.00</vFCPST>
           <vFCPSTRet>0.00</vFCPSTRet>
-          <vProd>2500.00</vProd>
+          <vProd>5200.00</vProd>
           <vFrete>0.00</vFrete>
           <vSeg>0.00</vSeg>
           <vDesc>0.00</vDesc>
@@ -107,7 +107,7 @@
           <vPIS>0.00</vPIS>
           <vCOFINS>0.00</vCOFINS>
           <vOutro>0.00</vOutro>
-          <vNF>2500.00</vNF>
+          <vNF>5200.00</vNF>
         </ICMSTot>
       </total>
       <transp>
@@ -117,7 +117,7 @@
         <detPag>
           <indPag>1</indPag>
           <tPag>01</tPag>
-          <vPag>2500.00</vPag>
+          <vPag>5200.00</vPag>
         </detPag>
       </pag>
     </infNfe>
@@ -126,9 +126,9 @@
     <infProt>
       <tpAmb>2</tpAmb>
       <verAplic>SVRS202401</verAplic>
-      <chNFe>35240123456789000198550010000000011234567890</chNFe>
-      <dhRecbto>2024-01-10T10:05:00-03:00</dhRecbto>
-      <nProt>1352400000000001</nProt>
+      <chNFe>35240123456789000198550010000000041234567893</chNFe>
+      <dhRecbto>2024-01-18T10:05:00-03:00</dhRecbto>
+      <nProt>1352400000000004</nProt>
       <digVal>ABC123DEF456GHI789=</digVal>
       <cStat>100</cStat>
       <xMotivo>Autorizado o uso da NF-e</xMotivo>

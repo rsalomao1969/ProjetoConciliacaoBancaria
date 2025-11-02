@@ -1,0 +1,16 @@
+# requirements.txt
+# Dependências do Projeto - Agente de Conciliação Bancária com Groq
+# Atualizado: Outubro 2025
+
+# ==================== INTERFACE WEB ====================
+streamlit>=1.28.0
+
+# ==================== IA / LLM ====================
+groq>=0.4.0
+python-dotenv>=1.0.0
+
+# ==================== PROCESSAMENTO DE DADOS ====================
+pandas>=2.0.0
+
+# ==================== VISUALIZAÇÃO ====================
+plotly>=5.14.0
